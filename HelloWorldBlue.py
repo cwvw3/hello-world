@@ -11,7 +11,7 @@ frame = tk.Frame(root, bg="black")
 frame.place(relx=0.5, rely=0.5, anchor="center")
 
 # Create the textbox
-textbox = tk.Label(frame, text="Hello, World!", bg="green", fg="white", font=("Arial", 20), padx=20, pady=10)
+textbox = tk.Label(frame, text="Hello, World!", bg="blue", fg="white", font=("Arial", 20), padx=20, pady=10)
 textbox.pack()
 
 # Run the application
